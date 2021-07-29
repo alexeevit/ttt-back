@@ -11,7 +11,7 @@ gem "puma", "~> 5.0"
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem "rack-cors"
 
 gem "redis"
 
@@ -20,6 +20,7 @@ group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "rspec-rails", "~> 5.0.0"
   gem "standard"
+  gem "pry"
 end
 
 group :development do
